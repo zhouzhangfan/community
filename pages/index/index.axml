@@ -1,0 +1,7 @@
+<view>
+  <main-posts a:if="{{activeName === 'post'}}"></main-posts>
+  <main-rank a:if="{{activeName === 'rank'}}"></main-rank>
+  <main-forums a:if="{{activeName === 'forum'}}"></main-forums>
+  <main-my a:if="{{activeName === 'my'}}"></main-my>
+  <z-nav items="{{items}}" onChangeNav="onChangeNav"></z-nav>
+</view>

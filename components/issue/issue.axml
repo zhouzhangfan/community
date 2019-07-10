@@ -1,0 +1,4 @@
+<view class="z-issue bg-blue" onTap="onTap">
+  <text class="cuIcon-write z-icon"></text>
+  <text>发帖</text>
+</view>

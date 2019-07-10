@@ -1,0 +1,15 @@
+.index{
+  padding: 5vw;
+}
+.center{
+  margin: 10vw;
+  text-align: center;
+}
+.user{
+  margin-top: 10vw;
+}
+.avatar image{
+  height: 16vw;
+  width: 16vw;
+  border-radius: 50%;
+}

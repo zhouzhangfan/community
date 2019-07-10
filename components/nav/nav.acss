@@ -1,0 +1,39 @@
+.z-nav{
+  position: fixed;
+  bottom: 0;
+  height: 100rpx;
+  background-color: #fff;
+  left: 0;
+  right: 0;
+  border-top: 1rpx solid #b1b1b1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.z-nav .item{
+  display: inline-block;
+}
+
+.z-nav .item .icon{
+  height: 40rpx;
+  width: 40rpx;
+  color: #b1b1b1;
+  margin: 15rpx auto 5rpx;
+  font-size: 40rpx;
+  text-align: center;
+  line-height: 40rpx;
+}
+
+.z-nav .item .name{
+  font-size: 20rpx;
+  text-align: center;
+  color: #b1b1b1;
+}
+
+.z-nav .item.active .icon{
+  color: var(--blue);
+}
+
+.z-nav .item.active .name{
+  color: var(--blue);
+}

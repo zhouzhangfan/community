@@ -1,0 +1,11 @@
+<view class="z-nav">
+  <view 
+    class="item {{index === active ? 'active' : ''}}" 
+    a:for="{{items}}" 
+    onTap="tapNav"
+    data-index="{{index}}"
+  >
+    <view class="icon cuIcon-{{item.icon + (index === active ? 'fill active' : '')}}"></view>
+    <view class="name">{{item.title}}</view>
+  </view>
+</view>

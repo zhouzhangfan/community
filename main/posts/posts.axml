@@ -1,0 +1,10 @@
+<view class="posts">
+  <scroll-view scroll-x class="bg-white nav" scroll-with-animation scroll-left="{{scrollLeft}}">
+    <view class="cu-item {{index==TabCur?'text-blue cur':''}}" a:for="{{10}}" onTap="tabSelect" data-id="{{index}}">
+      Tab{{index}}
+    </view>
+  </scroll-view>
+  <z-post></z-post>
+  <z-post></z-post>
+  <z-issue></z-issue>
+</view>

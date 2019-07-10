@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "z-nav": "/components/nav/nav",
+    "main-posts": "/main/posts/posts",
+    "main-rank": "/main/rank/rank",
+    "main-forums": "/main/forums/forums",
+    "main-my": "/main/my/my"
+  }
+}

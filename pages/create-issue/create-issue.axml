@@ -1,0 +1,5 @@
+<view class="create-issue">
+  <view class="z-input">
+		<textarea class="z-textarea" maxlength="-1" placeholder="说点什么吧..."></textarea>
+	</view>
+</view>

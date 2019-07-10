@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "z-post": "/components/post/post",
+    "z-issue": "/components/issue/issue"
+  }
+}

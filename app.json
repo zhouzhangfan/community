@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/create-issue/create-issue",
+    "pages/index/index",
+    "pages/test/test"
+  ],
+  "window": {
+    "titleBarColor": "#3296FA",
+    "defaultTitle": "城南圈",
+    "allowsBounceVertical": "NO"
+  }
+}

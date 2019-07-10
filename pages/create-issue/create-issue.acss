@@ -1,0 +1,7 @@
+.create-issue{
+  
+}
+
+.create-issue .z-textarea{
+  font-size: 36rpx;
+}

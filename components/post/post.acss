@@ -1,0 +1,103 @@
+.z-post{
+  margin-top: 10rpx;
+  background-color: #fff;
+  padding: 20rpx 35rpx 0;
+}
+
+.z-post .z-header{
+  height: 80rpx;
+  display: flex;
+  margin-bottom: 20rpx;
+}
+
+.z-post .z-header .z-avatar{
+  height: 70rpx;
+  width: 70rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20rpx;
+  vertical-align: middle;
+}
+
+.z-post .z-header .z-avatar image{
+  height: 100%;
+  width: 100%;
+}
+
+.z-post .z-header .right{
+  vertical-align: middle;
+}
+
+.z-post .z-header .z-right .z-name{
+  font-size: 30rpx
+}
+
+.z-post .z-header .z-right .z-time{
+  color: #b7b7b7;
+  font-size: 20rpx;
+}
+
+.z-post .z-content{
+  margin-bottom: 40rpx;
+  font-size: 35rpx;
+}
+
+.z-post .z-tag{
+  vertical-align: middle;
+}
+
+.z-post .z-tag .z-forum{
+  display: inline-block;
+  font-size: 28rpx;
+  margin-right: 5rpx;
+  vertical-align: middle;
+}
+
+.z-post .z-tag .z-span{
+  display: inline-block;
+  font-size: 22rpx;
+  vertical-align: middle;
+  margin-top: 3rpx;
+}
+
+.z-post .z-bottom{
+  height: 80rpx;
+  border-top: 1rpx solid #eee;
+  margin-top: 20rpx;
+  line-height: 80rpx;
+  font-size: 35rpx;
+}
+
+.z-post .z-bottom .z-like{
+  float: right;
+  margin: 0 20rpx;
+}
+
+.z-post .z-bottom .z-comment{
+  float: right;
+  margin: 0 20rpx;
+}
+
+.z-post .z-bottom .z-number{
+  margin: 0 15rpx;
+}
+
+.z-post .z-bottom .z-likelist{
+  display: inline-block;
+}
+
+.z-post .z-bottom .z-likelist .z-alike{
+  height: 40rpx;
+  width: 40rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  line-height: 40rpx;
+  margin-top: 20rpx;
+  border: 1rpx solid #fff;
+}
+  
+.z-post .z-bottom .z-likelist .z-alike image{
+  height: 100%;
+  width: 100%;
+} 

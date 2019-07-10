@@ -1,0 +1,31 @@
+<view class="z-post">
+  <view class="z-header">
+    <view class="z-avatar">
+      <image mode="aspectFill" src="{{user.avatar}}"/>
+    </view>
+    <view class="z-right">
+      <view class="z-name">{{user.name}}</view>
+      <view class="z-time">{{time}}</view>
+    </view>
+  </view>
+  <view class="z-content">{{content}}</view>
+  <view class="z-tag text-blue">
+    <view class="z-forum">#  {{forumName}}</view>
+    <view class="z-span">· {{tagName}}</view> 
+  </view>
+  <view class="z-bottom text-gray">
+    <view class="z-likelist">
+      <view class="z-alike" a:for="{{likeList}}">
+        <image mode="aspectFill" src="{{item}}"/>
+      </view>
+    </view>
+    <view class="z-comment">
+      <text class="z-icon cuIcon-comment"></text>
+      <text class="z-number">{{comment}}</text>
+    </view>
+    <view class="z-like">
+      <text class="z-icon cuIcon-like"></text>
+      <text class="z-number">{{like}}</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+<view class="index">
+  <view>corpId: {{corpId}}</view>
+  <view>authCode: {{authCode}}</view>
+  <view class="center">
+    <!-- <button class="btn" size="mini" type="primary" onTap="click">获取用户信息</button> -->
+    <view class="user">
+      <view class="avatar">
+        <image mode="aspectFill" src="{{user.avatar}}"/>
+      </view>
+      <view>{{user.name}}</view>
+    </view>
+  </view>
+</view>
